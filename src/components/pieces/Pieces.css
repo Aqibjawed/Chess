@@ -1,5 +1,5 @@
 .pieces {
-    position: absolute;
+    position: fixed;
     /* display: grid;
     place-self: center; */
     display: flex;
@@ -11,7 +11,6 @@
     bottom: calc(0.25*var(--tile-size));
     width: calc(8*var(--tile-size));
     height: calc(8*var(--tile-size));
-    /* background-color: rgba(200,0,0,0.5); */
 }
 
 .piece {
