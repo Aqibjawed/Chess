@@ -1,0 +1,40 @@
+.popup {
+    position: absolute;
+    left: calc(0.25*var(--tile-size));
+    right: 0;
+    top: 0;
+    bottom: calc(0.25*var(--tile-size));
+    width: calc(8*var(--tile-size));
+    height: calc(8*var(--tile-size));
+    display: grid;
+    place-self: center;
+    /* background-color: rgba(200,0,0,0.5); */
+}
+
+.popup-inner {
+    width: 50%;
+    min-height: var(--tile-size);
+    height: fit-content;
+    background: var(--light-tile);
+    position: absolute;
+    border: 6px solid var(--light-tile);
+    box-shadow:  0 0 0 6px var(--dark-tile);
+}
+
+.popup--inner__center{
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+.popup--inner__center h1{
+    font-size: 2.5rem;
+    margin: 0, 0, 0.5rem, 0;
+}
+
+.popup--inner__center p{
+    font-size: 1.2rem;
+    margin: 0, 0, 0.5rem, 0;
+}

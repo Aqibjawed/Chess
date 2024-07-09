@@ -1,0 +1,25 @@
+.promotion-choices {
+    height: var(--tile-size);
+}
+.promotion-choices .piece {
+    width: var(--tile-size);
+    height: 100%;
+    border: 1px solid var(--dark-tile);
+}
+
+.promotion-choices .piece:hover {
+    box-shadow: 0 0 0 3px var(--dark-tile);
+}
+
+.promotion-choices :is(.black_queen, .white_queen){
+    left: 0;
+}
+.promotion-choices :is(.black_knight, .white_knight){
+    left: 75%;
+}
+.promotion-choices :is(.black_rook, .white_rook){
+    left: 25%;
+}
+.promotion-choices :is(.black_bishop, .white_bishop){
+    left: 50%;
+}
