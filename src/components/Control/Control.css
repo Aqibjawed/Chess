@@ -1,7 +1,10 @@
 .control {
     position: absolute;
+    height: 100%;
+    width: 100%;
     display: grid;
-    justify-self: center;
-    top: auto;
-    margin-top: calc(8* var(--tile-size) + var(--offset));
+    justify-items: center;
+    align-items: flex-end;
+    margin-bottom: calc(((100vh) - (8*var(--tile-size))));
+    margin-top: var(--offset);
 }
