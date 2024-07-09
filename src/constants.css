@@ -1,6 +1,6 @@
 :root {
     --tile-size: 65px;
-    --offset : 150px;
+    --offset : 90px;
     --light-tile: #F0D8B7;
     --dark-tile: #B48764;
     --bg-color: #202020;
@@ -13,6 +13,6 @@
 @media all and (max-width: 450px){
     :root {
         --tile-size: 35px;
-        --offset: 200px;
+        --offset: 130px;
     }
 }
