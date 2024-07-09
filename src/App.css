@@ -5,10 +5,9 @@ html, body{
     padding: 0;
 }
 .App {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     height: 100vh;
     background: var(--bg-color);
 }

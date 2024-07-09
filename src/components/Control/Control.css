@@ -1,5 +1,7 @@
 .control {
     position: absolute;
+    display: grid;
+    justify-self: center;
     top: auto;
     margin-top: calc(8* var(--tile-size) + var(--offset));
 }
