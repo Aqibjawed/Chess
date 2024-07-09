@@ -17,7 +17,7 @@ const GameEnds = ({onClosePopup})=>{
     const newGame = ()=>{
         dispatch(setUpNewGame())
     }
-
+ 
     return (
         <div className='popup-inner popup--inner__center'>
             <h1>{isWin? status: 'Draw'}</h1>
